@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+li:hover {
+  background: lightblue;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  padding: 2rem;
+}
+body {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background: #333;
+}
+h1 {
+  color: lightblue;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+select {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+select:hover {
+  cursor: pointer;
+}
